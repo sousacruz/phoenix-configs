@@ -45,6 +45,8 @@ spring:
     generate-ddl: false
     
 management:
+  security:
+    enabled: false
   endpoints:
     web:
       exposure:
